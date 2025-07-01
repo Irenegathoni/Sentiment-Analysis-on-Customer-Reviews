@@ -12,9 +12,9 @@ def clean_text(text):
     return text
 
 
-with open("C:\\Users\\hp\\Downloads\\nlpanalytics\\notebooks\\tfidf_vectorizer.pkl",'rb')as f:
+with open("C:\\Users\\hp\\Downloads\\nlpanalytics\\models\\tfidf_vectorizer.pkl",'rb')as f:
     vectorizer=pickle.load(f)
-with open("C:\\Users\\hp\\Downloads\\nlpanalytics\\notebooks\\sentiment_model.pkl",'rb') as f:
+with open("C:\\Users\\hp\\Downloads\\nlpanalytics\\models\\sentiment_model.pkl",'rb') as f:
     model=pickle.load(f)    
 
 st.title("📢 Sentiment Analysis App") 
